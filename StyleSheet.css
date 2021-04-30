@@ -1,0 +1,27 @@
+﻿body {
+    font: 100% georgia, sans-serif;
+    color: rgb(135 144 143);
+    background-color: rgb(195 238 235);
+}
+
+.menu > li {        /*settaggi per rendere il menu orizzontale*/
+    padding: 0px;
+    text-align: center;
+    display: block;
+    width: 450px;
+    height: 30px;
+    margin: 3px;
+    float: left;
+}
+
+.menu > li :hover {     /*evidenzia lo sfondo quando si passa il cursore sul singolo elemento*/
+    background-color: rgb(221 216 216);
+}
+
+.border-radius {
+    border-radius: 10px;    /*arrotonda i bordi del button home*/
+}
+
+.trailer{
+    align-content:center;   /*non centra il trailer*/
+}
